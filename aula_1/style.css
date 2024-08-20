@@ -4,11 +4,24 @@
 }
 
 #div-hino {
-    color: rgb(255, 255, 255);
     text-align: center;
     letter-spacing: 1px;
     font-size: 18px;
     font-family: Impact;
+}
+
+#div-hino h1[name="titulo"] {
+    color: rgb(255, 255, 255);
+}
+
+#div-hino p:nth-of-type(2n-1) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#div-hino p:nth-of-type(2n) {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #div-bart {
@@ -22,5 +35,5 @@
 }
 
 body {
-    background-color: rgba(0, 0, 255, 0.8);
+    background-color:var(--bg-color)
 }

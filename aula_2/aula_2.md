@@ -1,0 +1,6 @@
+# IMG
+
+### Caminhos:
+
+- Absoluto
+- Relativo

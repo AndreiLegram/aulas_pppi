@@ -1,0 +1,7 @@
+div {
+    background-color: aqua;
+    border: solid 1px gray;
+    border-radius: 0px 20px 30px 40px;
+    /* top|left top|right,bottom|left bottom|right */
+    /* top|left,bottom|right top|right,bottom|left */
+}

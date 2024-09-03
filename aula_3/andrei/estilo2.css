@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-button {
+    width: 600px;
+    height: 300px;
+    margin: 200px auto;
+    border: solid 1px gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div-list {
+    width: 600px;
+    height: 300px;
+    margin: 200px auto;
+    border: solid 1px gray;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 5px #000;
+    background-color: whitesmoke;
+    transition: 
+        background-color 1s ease,
+        scale 0.5s ease-in 0.1s;
+}
+
+.div-list:hover {
+    background-color: blue;
+    /* scale: 1.2 */
+}
+
+.icon {
+    transition: all 0.5s ease;
+    cursor: grab;
+}
+
+.icon:hover {
+    rotate: 90deg;
+}
+
+.icon:active {
+    cursor: grabbing;
+}
+
+ul>li:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+ul>li ~ li {
+    margin-top: 5px;
+}
+
+ul>li {
+    list-style-type: none;
+    list-style-position: outside;
+    transition: all .5s ease;
+    background-color: rgba(255, 0, 0, 1);
+    padding: 10px;
+    border-left: solid 10px black;
+    font-weight: bold;
+    color: white;
+}
+
+ul>li:hover {
+    border-left-color: #aeaeae;
+    background-color: red;
+    color: whitesmoke;
+    /* rotate: 1000deg */
+}
+
+ul>li ~ li {
+    margin-top: 5px;    
+}
+
+a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    background: linear-gradient(114deg, rgba(181,179,217,1) 0%, rgba(45,12,134,1) 90%);
+    padding: 10px 30px;
+    border-radius: 3vmin;
+}

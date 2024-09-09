@@ -8,6 +8,4 @@ Aulas de Princípios Da Programação Para Internet.
 
 #### Created by:
 
-- Andrei Legramerda: [AndreiLegram](https://github.com/AndreiLegram)
-- Leonardo: [LeonardoEggres](https://github.com/LeonardoEggres)
-- Tiago: [melloctiago](https://github.com/melloctiago)
+- [AndreiLegram](https://github.com/AndreiLegram)

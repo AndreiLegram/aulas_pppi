@@ -1,0 +1,21 @@
+@import 'variables.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-black);
+}
+
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.text-primary { color: var(--color-primary) }
+.text-danger { color: var(--color-danger) }
+.text-success { color: var(--color-success) }
+
+.bg-primary { background-color: var(--bg-primary) }
